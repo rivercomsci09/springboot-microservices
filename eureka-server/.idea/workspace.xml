@@ -2,31 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b8bb6b2-6c9d-485a-8fad-4858e4fcbb2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../employee-consumer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employee-consumer/src/main/java/com/river/model/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employee-producer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../employee-producer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/river/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee-consumer/src/main/java/com/river/SpringBootHelloWorldApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/src/main/java/com/river/SpringBootHelloWorldApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-server/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-server/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-server/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-server/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-server/src/main/java/com/river/ZuulServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zuul-server/zuul-server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../employee-consumer/src/main/java/com/river/controllers/ConsumerControllerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/src/main/java/com/river/controllers/ConsumerControllerClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee-consumer/target/classes/com/river/SpringBootHelloWorldApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/target/classes/com/river/SpringBootHelloWorldApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee-consumer/target/classes/com/river/controllers/ConsumerControllerClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/target/classes/com/river/controllers/ConsumerControllerClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee-producer/employee-producer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-producer/employee-producer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee-producer/src/main/java/com/river/SpringBootHelloWorldApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-producer/src/main/java/com/river/SpringBootHelloWorldApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee-producer/src/main/java/com/river/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-producer/src/main/java/com/river/controllers/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee-producer/target/classes/com/river/SpringBootHelloWorldApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-producer/target/classes/com/river/SpringBootHelloWorldApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee-producer/target/classes/com/river/controllers/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-producer/target/classes/com/river/controllers/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +43,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -89,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589858140760</updated>
-      <workItem from="1589858143634" duration="7532000" />
+      <workItem from="1589858143634" duration="8692000" />
     </task>
     <servers />
   </component>
@@ -97,6 +85,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1589876134353">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1589876134353" />
     <state width="1877" height="413" key="GridCell.Tab.0.bottom" timestamp="1589875106920">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -129,5 +121,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="413" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589875106920" />
+    <state x="342" y="200" key="new project wizard" timestamp="1589876139999">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="342" y="200" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1589876139999" />
   </component>
 </project>

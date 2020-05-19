@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b8bb6b2-6c9d-485a-8fad-4858e4fcbb2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../zuul-server/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-server/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-server/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-server/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-server/src/main/java/com/river/ZuulServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zuul-server/zuul-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee-consumer/src/main/java/com/river/controllers/ConsumerControllerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/src/main/java/com/river/controllers/ConsumerControllerClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589858140760</updated>
-      <workItem from="1589858143634" duration="8692000" />
+      <workItem from="1589858143634" duration="8880000" />
     </task>
     <servers />
   </component>

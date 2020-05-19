@@ -1,31 +1,29 @@
 package com.river.controllers;
 
-import org.springframework.http.*;
-import org.springframework.web.client.RestClientException;
+import com.river.model.Department;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import java.io.IOException;
+import java.util.List;
 
+
+@RestController
+@RequestMapping("/")
 public class ConsumerControllerClient {
 
-    public void getEmployee() throws RestClientException, IOException {
+    @Autowired
+    private RestTemplate restTemplate;
 
-        String baseUrl = "http://localhost:8080/employee";
-        RestTemplate restTemplate = new RestTemplate();
-        ResponseEntity<String> response=null;
-        try{
-            response=restTemplate.exchange(baseUrl,
-                    HttpMethod.GET, getHeaders(),String.class);
-        }catch (Exception ex)
-        {
-            System.out.println(ex);
-        }
-        System.out.println(response.getBody());
-    }
-
-    private static HttpEntity<?> getHeaders() throws IOException {
-        HttpHeaders headers = new HttpHeaders();
-        headers.set("Accept", MediaType.APPLICATION_JSON_VALUE);
-        return new HttpEntity<>(headers);
+    @RequestMapping("/{id}")
+    public Department getDepartment(@PathVariable final int id){
+        Department department = new Department();
+        department.setId(id);
+        // get list of available employees
+        List<Object> employees = restTemplate.getForObject("http://employee-producer/employees/", List.class);
+        department.setEmployees(employees);
+        return department;
     }
 }

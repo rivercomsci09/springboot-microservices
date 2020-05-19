@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b8bb6b2-6c9d-485a-8fad-4858e4fcbb2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../employee-consumer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../employee-consumer/src/main/java/com/river/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../employee-producer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../employee-producer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/river/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-consumer/src/main/java/com/river/SpringBootHelloWorldApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/src/main/java/com/river/SpringBootHelloWorldApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-consumer/src/main/java/com/river/controllers/ConsumerControllerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/src/main/java/com/river/controllers/ConsumerControllerClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-consumer/target/classes/com/river/SpringBootHelloWorldApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/target/classes/com/river/SpringBootHelloWorldApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-consumer/target/classes/com/river/controllers/ConsumerControllerClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-consumer/target/classes/com/river/controllers/ConsumerControllerClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-producer/employee-producer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-producer/employee-producer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-producer/src/main/java/com/river/SpringBootHelloWorldApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-producer/src/main/java/com/river/SpringBootHelloWorldApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-producer/src/main/java/com/river/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-producer/src/main/java/com/river/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-producer/target/classes/com/river/SpringBootHelloWorldApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-producer/target/classes/com/river/SpringBootHelloWorldApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employee-producer/target/classes/com/river/controllers/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../employee-producer/target/classes/com/river/controllers/TestController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1c6nvPilOvReBkDunjs79EK45k5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.river.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.river.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b8bb6b2-6c9d-485a-8fad-4858e4fcbb2c" name="Default Changelist" comment="" />
+      <created>1589858140760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589858140760</updated>
+      <workItem from="1589858143634" duration="7532000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="413" key="GridCell.Tab.0.bottom" timestamp="1589875106920">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="413" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589875106920" />
+    <state width="1877" height="413" key="GridCell.Tab.0.center" timestamp="1589875106919">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="413" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589875106919" />
+    <state width="1877" height="413" key="GridCell.Tab.0.left" timestamp="1589875106919">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="413" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589875106919" />
+    <state width="1877" height="413" key="GridCell.Tab.0.right" timestamp="1589875106920">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="413" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589875106920" />
+    <state width="1877" height="413" key="GridCell.Tab.1.bottom" timestamp="1589875106920">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="413" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589875106920" />
+    <state width="1877" height="413" key="GridCell.Tab.1.center" timestamp="1589875106920">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="413" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589875106920" />
+    <state width="1877" height="413" key="GridCell.Tab.1.left" timestamp="1589875106920">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="413" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589875106920" />
+    <state width="1877" height="413" key="GridCell.Tab.1.right" timestamp="1589875106920">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="413" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589875106920" />
+  </component>
+</project>
